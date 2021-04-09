@@ -4,7 +4,7 @@ var m = 1;
 var b = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 400)
 }
 
 function linearRegression() {
@@ -40,8 +40,8 @@ function drawLine() {
   x2 = map(x2, 0, 1, 0, width);
   y2 = map(y2, 0, 1, height, 0);
 
-  stroke(255);
-  strokeWeight(2);
+  stroke(240, 89, 69);
+  strokeWeight(3);
   line(x1, y1, x2, y2);
 }
 
@@ -53,12 +53,12 @@ function mousePressed() {
 }
 
 function draw() {
-  background(51);
+  background(157, 190, 185);
   for (var i = 0; i < data.length; i++) {
     var x = map(data[i].x, 0, 1, 0, width);
     var y = map(data[i].y, 0, 1, height, 0);
-    fill(255);
-    stroke(255);
+    fill(25, 67, 80);
+    stroke(25, 67, 80);
     ellipse(x, y, 8, 8);
   }
 

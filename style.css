@@ -41,18 +41,28 @@ h1 {
   font-size: 50px;
   color: #194350;
   font-weight: 700;
+  padding-bottom: 5px;
 }
 
 h3 {
   font-size: 30px;
   color: #f05945;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
+  color: #194350;
+  margin: 0;
 }
 
 p {
   font-size: 20px;
   color: #684d71;
   text-align: left;
+  margin: 0;
+  padding-top: 0px;
   padding-bottom: 30px;
 }
 
@@ -61,7 +71,6 @@ p {
 }
 
 #intro p {
-  margin-top: 3px;
   padding-bottom: 50px;
   font-size: 24px;
 }
@@ -81,9 +90,49 @@ p {
   width: 600px;
 }
 
-#buttons {
+/*#buttons {
   display: flex;
   justify-items: center;
   align-items: center;
   min-height: 100px;
+}*/
+
+
+.button {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
+
+.button1 {
+  background-color: #9dbeb9; 
+  color: black; 
+  border: 2px solid #194350;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #194350;
+  color: white;
+  border-radius: 5px;
+}
+
+.button2 {
+  background-color: #ff8882; 
+  color: black; 
+  border: 2px solid #f05945;
+  border-radius: 5px;
+}
+
+.button2:hover {
+  background-color: #f05945;
+  color: white;
+  border-radius: 5px;
+}
+
+
